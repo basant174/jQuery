@@ -1,0 +1,178 @@
+.home{
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   background-color: rgba(214, 46, 51, 0.6);    
+}
+
+.overlay h2{
+  font-size: 60px;
+  margin-bottom: .5rem;
+}
+.overlay p{
+  margin-bottom: 16px;
+}
+
+.navbarr{
+    width: 0px;
+    background-color: #111;
+    height: 100vh;
+    position: fixed;
+    z-index: 99; 
+    padding-top: 40px;
+}
+.navbarr a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 8px 20px 32px !important;
+    font-size: 26px;
+    transition: all .5s;
+}
+
+
+.links{
+    display: none;
+}
+.navbarr a:hover{
+    color: rgba(214, 46, 51, 0.4);
+}
+.nav{
+    position: absolute;
+    top: 55%;
+    left: 15px;
+}
+.con{
+    width: 50%;
+    margin: 100px auto;
+}
+.singer1{
+   background-color: #d62e3399;
+   padding: 10px;
+   font-size: 28px;
+   color: #fff;
+   font-weight: 600;
+}
+.contant-sing{
+    font-size: 18px;
+    background-color: #ccc;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.count{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.count-num{
+    padding: 50px;
+    color: #fff;
+    font-size: 30px;
+    border: white 1px solid;
+    font-weight: 600;
+}
+.container{
+    padding: 100px 80px;
+}
+
+.contact-us{
+    margin-top: 100px ;
+}
+
+.title h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #444;
+}
+.vip{
+    margin-bottom: 20px;
+    color: #777;
+    text-align: center;
+}
+
+.col-md-6 h3{
+    font-size: 18px;
+    font-weight: 800;
+    color: #444;
+
+}
+
+.address{
+    margin-top: 50px;
+}
+.address i{
+    margin-right: 20px;
+}
+.address span{
+    color: #d62e33;
+}
+.address .vip{
+    margin-bottom: 35px;
+}
+.social{
+    margin-top: 60px;
+}
+.icon{
+   width: 40px;
+   height: 40px;
+   border: 1px solid #999;
+   text-align: center;
+   line-height: 42px;
+   margin-right: 10px;
+}
+
+.social a{
+    color: #777;
+}
+.social .icon:hover{
+    background-color: #d62e33;
+    color: #fff;
+    border: 1px solid #d62e33;
+}
+
+input,textarea{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+ textarea{
+    height: 200px;
+}
+
+.contact-us button{
+    background-color: #D62E33;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 0;
+}
+
+.char{
+    font-size: 20px;
+    color: #D62E33;
+}
+
+.charFin{
+    font-size: 20px;
+    color: #D62E33;
+}
+
+form button{
+  display:block;
+  margin-top:20px;
+}
